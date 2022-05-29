@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div 
+ style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
+ unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;">
+        <p style="text-align:center;"><img src="https://auto-take.github.io/Resources/Pictures/Auto_Take_Logo.png" width="191" height="79"></p>
+        <div></div>
+        <style type="text/css">
+        h1 {
+            color: rgba(0, 119, 215, 0.698);
+            font-size: 390%}
+        </style>
+        <center>
+            <h1>Welcome to Auto Take Vend!</h1>
+        </center>
+        <script>
+            document.addEventListener('contextmenu', event => event.preventDefault());
+        </script>
+        <style type="text/css">
+            .sub_div {
+                position: absolute;
+                bottom: 0px;
+            }
+            p {
+                margin-left:1px;
+            }
+        </style>
+        <style>
+            .button {
+              display: inline-block;
+              border-radius: 4px;
+              background-color: #f4511e;
+              border: none;
+              color: #FFFFFF;
+              text-align: center;
+              font-size: 12px;
+              padding: 20px;
+              width: 150px;
+              transition: all 0.5s;
+              cursor: pointer;
+              margin: 5px;
+              height: 55px;
+            }
+            
+            .button span {
+              cursor: pointer;
+              display: inline-block;
+              position: relative;
+              transition: 0.5s;
+            }
+            
+            .button span:after {
+              content: '\00bb';
+              position: absolute;
+              opacity: 0;
+              top: 0;
+              right: -20px;
+              transition: 0.5s;
+            }
+            
+            .button:hover span {
+              padding-right: 25px;
+            }
+            
+            .button:hover span:after {
+              opacity: 1;
+              right: 0;
+            }
+            </style>
+        <div class="sub_div">
+            <center>
+                <h6>Not Regestered?</h6>
+                <button class="button" style="vertical-align:middle" onclick="window.location.href='https://www.bing.com'"><span>Regester Face</span></button>
+                <a href=""><img src="https://auto-take.github.io/Resources/Pictures/Face_Recogntion_Button-EN.png" style="width:880px;height:150px;"></a>
+            </center>
+        </div>
+            <p style="background-image: url('https://auto-take.github.io/Resources/Pictures/Background_Posters.gif');"></p>
+        </div>
+        </body>
+ </html>
