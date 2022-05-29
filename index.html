@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <video scr="https://auto-take.github.io/Resources/Videos/Background_Video.mp4" muted loop autoplay></video>
-        <div class="overlay">
+        <style>
+            body{
+                margin:0;
+            }
+            video{
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -100;
+                -webkit-filter: grayscale(20%);
+            }
+            </style>
+        <video src="https://auto-take.github.io/Resources/Videos/Background_Video.mp4" loop="loop" autoplay="autoplay"></video>
         <div style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
  unselectable="on"
  onselectstart="return false;" 
