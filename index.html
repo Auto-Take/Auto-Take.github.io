@@ -19,12 +19,26 @@
         <center>
             <video src="https://auto-take.github.io/Resources/Videos/Background_Video.mp4" loop autoplay></video>
         </center>
+        <style>
+            .langButton {
+                font-size: 10px;
+                float: right;
+            }
+        </style>
         <div style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
  unselectable="on"
  onselectstart="return false;" 
  onmousedown="return false;">
-        <p style="text-align:center;"><img src="https://auto-take.github.io/Resources/Pictures/Auto_Take_Logo.png" width="191" height="79"></p>
-        <div></div>
+ <p style="text-align:center;"><img src="https://auto-take.github.io/Resources/Pictures/Auto_Take_Logo.png" width="191" height="79">
+    <script>
+        const btn = document.getElementById('btn');
+        function clicked(){
+            var url= "https://auto-take.github.io/index-CH.html";
+window.location = url;
+        }
+    </script>
+    <button class="langButton" id="btn" onclick="clicked()">🇨🇳 CH</button>
+</p>        <div></div>
         <style type="text/css">
         h1 {
             color: rgb(0, 118, 215);
